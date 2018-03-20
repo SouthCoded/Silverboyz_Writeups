@@ -4,4 +4,4 @@ This challenge was relatively easy to complete but provided a good review of the
 
 To start off we check the file headers on the binary,
 
-![header](header.png)
+![header](header.PNG)
