@@ -40,14 +40,17 @@ Lets check out the execcmd function.
 ![r2execcmd](r2execcmd.PNG)
 
 Huh, interesting. There doesn't seem to be a way of running systems. The strchr is looking for the newline character
-which sinces we are using fgets will always be appended. Seems like we need to find another way in. Since this challenge
-is only 50 points, let's try some common vunerablities. Let's enter a lot of characters into the read function. 
+which sinces a newline is automatically appended for strings, will be at the end. Seems like we need to find another 
+way in. Since this challenge is only 50 points, let's try some common vunerablities. Let's enter a lot of characters 
+into the read function. 
 
 ![segfault](segfault.PNG)
 
 This looks promising. Seems like it is a buffer overflow, let's see what's happening behind the scenes. 
 
 ![overflow](overflow.PNG)
+
+
 
 
 
