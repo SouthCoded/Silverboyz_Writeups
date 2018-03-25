@@ -1,6 +1,6 @@
-LSE Challenge Link: https://ctf.lse.epita.fr/ex/55/
+LSE Challenge Link: https://ctf.lse.epita.fr/ex/55/ (a copy is in the current repository as well)
 
-This challenge was relatively easy to complete but provided a good review of the fundamentals. 
+This challenge was part of the online wargame linked above and  was relatively easy to complete but provided a good review of the fundamentals. 
 
 To start off we check the file headers on the binary,
 
