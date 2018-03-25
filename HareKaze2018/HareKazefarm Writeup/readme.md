@@ -55,7 +55,7 @@ Scrolling down further into the program, we see that there is no comparison for 
 of a strcmp quality, mainly that the comparision will stop reading after it encounters a null byte. We might be able to 
 append isoroku onto a legit value and the program will add it to stack and then when the parade begins, the flag will be read.
 
-Right so, so far we have an idea of our payload looking like this:
+Right so here is our payload idea so far:
 
 payload = "hen" + "\x00" + "isoroku"
 
