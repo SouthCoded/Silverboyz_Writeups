@@ -59,6 +59,47 @@ Right so here is our payload idea so far:
 
 payload = "hen" + "\x00" + "isoroku"
 
+Trying this out, we run into an error. 
+
+![oku](oku.PNG)
+
+Looking at it in GDB we can see that hen was added fine to the stack but isor was left
+off and only oku was added. You can see that in fact isor was added but on to the end of hen if you convert the hex to ascii.
+
+726f7369006e6568 = rosi(\x00)neh in little endian format
+
+Looks like we need some sort of padding, it shouldn't matter what though as the strcmp stops reading
+after the null byte. Let us add some A's in. Here is the payload now:
+
+payload = "hen" + "\x00" + ("A" * 4) + "isoroku"
+
+Now let's try running it.
+
+![hang](hang.PNG)
+
+Hmm that is weird. Our value of isoroku is going in the stack correctly but we are getting these weird values after it. Also
+our program seems to be hanging.... ahhh I forgot to end the strcmp. I need to add a null byte onto the end. This should do it:
+
+payload = "hen" + "\x00" + ("A" * 4) + "isoroku" + "\x00"
+
+And???
+
+![flag](flag.PNG)
+
+Success! Well kind of, the flag is actually on their server but if you look at the binary it shows that if we were running it
+on their server we would get the flag :P
+
+![kindof](kindof.PNG)
+
+Hope you enjoyed the writeup!
+
+
+
+
+
+
+
+
 
 
 
