@@ -1,6 +1,6 @@
 
 This challenge was part of the HareKaze 2018 CTF. It is a little tricky and I didn't manage to solve it during the CTF
-but I figured it out afterwards. 
+but I figured it out afterwards. If you want to follow along, the binary is in the current repository.
 
 To start with we are given a binary file, so let us run the basic commands on it. 
 
