@@ -19,9 +19,11 @@ A message:
 ![cipher1](cipher1.PNG)
 
 The message deciphered:
+
 ![decipher1](decipher1.PNG)
 
 And the flag:
+
 ![cipherflag](cipherflag.PNG)
 
 You can read up on the Vigenère cipher but it is pretty intuitive. You take a message you want to encrypt and a key that repeats,
@@ -32,6 +34,7 @@ from cipher1 and decipher1 and then use it on the cipherflag.
 To do this I created a script. 
 
 '''
+    
     alphabet = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 
     axis_value =  "\"So,_did_you_hold_back_during_thattest?\"\"Maybe_a_little,\"_Sophronia_admitted._Soapgrinned.\"That's_my_girl.\"_Sophronia_glared_at_him._He_was_gettingfamiliar.\"You_are,_miss.\"_He_continued_togrin.\"I'm_my_own_girl,_thank_you_verymuch.\"―Gail_Carriger"
@@ -80,6 +83,7 @@ like we have to run the script again but we need to change the variables a bit.
 
 
 '''
+    
     alphabet = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 
     flag = ""
@@ -106,6 +110,7 @@ like we have to run the script again but we need to change the variables a bit.
 '''
 
 We get the flag!
+
 
 ![flag](flag.PNG)
 
