@@ -33,7 +33,7 @@ of a file which tell you what type of file it is).
 
 Running zsteg gave me this. 
 
-![try2](pics/zsteg.PNG)
+![try2](pics/zsteg.png)
 
 As you can see, there are a lot of files generated but I thought that the gif was interesting so I decided to extract that first.
 
