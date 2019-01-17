@@ -41,7 +41,7 @@ I started off with ltrace
 
 I found that when I entered in certain input, a bunch of sleeps would appear. 
 
-![Second ltrace](pics/ltrace_2.PNG)
+![Second ltrace](pics/ltrace_A.PNG)
 
 I later realized this correlated to the A in the password I had just found and when I entered in the password a bunch of sleeps
 appeared. I decided to script out the solution and brute force the password by going through the letter/symbol combinations that
