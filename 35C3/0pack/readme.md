@@ -46,6 +46,5 @@ I found that when I entered in certain input, a bunch of sleeps would appear.
 I later realized this correlated to the A in the password I had just found and when I entered in the password a bunch of sleeps
 appeared. I decided to script out the solution and brute force the password by going through the letter/symbol combinations that
 made more and more sleeps appear. Surprise surprise I got the same answer... this is where I finally submitted the flag correctly.
-
-Yes I am stupid, apologies. 
+Way to make things harder lol.
 
