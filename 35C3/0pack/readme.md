@@ -1,5 +1,5 @@
 This challenge was part of 35C3 and I had a lot of fun solving it. I learned more about the elf library and kind of solved it in two
-really stupid ways, so let us begin.
+really stupid ways, so let us begin. (Interesting note from editing, it seems 0pack is a tool used to confused debuggers hence the difficulty in debugging this challenge, link here: https://github.com/Luis-Hebendanz/0pack)
 
 To start off, we were given an elf library file. I'll skip the file command part, but basically an elf file is like an executable 
 file but with the libraries included. When we run 0pack.elf, we get this.
