@@ -22,7 +22,7 @@ that will provide some answers.
 
 ![strings](pics/strings.PNG)
 
-Hmm, looks like some animals are listed and their associated sounds are produced. Isoroku looks interesting as it's sound hints to
+Hmm, looks like some animals are listed and their associated sounds are produced. Isoroku looks interesting as its sound hints to
 the flag. Let's try some of these strings. 
 
 ![isoroku](pics/isoroku.PNG)
